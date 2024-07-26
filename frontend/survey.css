@@ -1,4 +1,4 @@
-body {
+/* body {
   background-image: url(https://i1.wp.com/dl.img-news.com/dl/img/s0/dl/2020/09/1471701-559173709.jpeg?fit=%2C&ssl=1);
   background-size: cover;
 }
@@ -10,4 +10,58 @@ form {
   color: white;
   font-size: 21px;
   padding-left: 5px;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
 }
